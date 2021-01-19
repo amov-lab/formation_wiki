@@ -51,7 +51,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'prometheus_wiki'
+project = u'formation_wiki'
 copyright = u'2020, amov-dev'
 author = u'amov-dev'
 
@@ -207,7 +207,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'prometheusdoc'
+htmlhelp_basename = 'formationdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -229,7 +229,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'prometheus.tex', u'prometheus Documentation',
+    (master_doc, 'formation.tex', u'formation Documentation',
      u'amov-dev', 'manual'),
 ]
 
@@ -259,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'prometheus', u'px4_wiki Documentation',
+    (master_doc, 'formation', u'px4_wiki Documentation',
      [author], 1)
 ]
 
@@ -273,8 +273,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'prometheus', u'prometheus Documentation',
-     author, 'prometheus', 'One line description of project.',
+    (master_doc, 'formation', u'formation Documentation',
+     author, 'formation', 'One line description of project.',
      'Miscellaneous'),
 ]
 

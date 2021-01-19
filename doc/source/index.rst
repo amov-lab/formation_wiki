@@ -20,7 +20,7 @@ amovlab 文档
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: P450使用手册
+   :caption: 无人机集群使用手册
 
    硬件介绍 <docs/p450/1-硬件介绍>
    软件介绍 <docs/p450/2-软件介绍>
@@ -50,6 +50,22 @@ amovlab 文档
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: APM基础配置
+
+   固件刷写 <docs/baseconfig_for_px4/1-固件刷写>
+   机架选择 <docs/baseconfig_for_px4/2-机架选择>
+   传感器校准 <docs/baseconfig_for_px4/3-传感器校准>
+   遥控器校准 <docs/baseconfig_for_px4/4-遥控器校准>
+   飞行模式设置 <docs/baseconfig_for_px4/5-飞行模式设置>
+   电池校准 <docs/baseconfig_for_px4/6-电池校准>
+   电调校准 <docs/baseconfig_for_px4/7-电调校准>
+   常用参数设置 <docs/baseconfig_for_px4/8-常用参数设置>
+   PID调参 <docs/baseconfig_for_px4/9-PID调参>
+   任务飞行 <docs/baseconfig_for_px4/10-任务飞行>
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
    :caption: 仿真使用手册
 
    仿真环境 <docs/simulation/1-仿真环境>
@@ -63,9 +79,6 @@ amovlab 文档
    :hidden:
    :caption: 其他
 
-   Prometheus团队 <docs/common/开发团队>
-   Prometheus历史 <docs/common/Prometheus历史>
-   Prometheus合作伙伴计划 <docs/common/Prometheus合作伙伴计划>
    联系我们 <docs/common/联系我们>
    社区论坛 <docs/common/社区论坛>
    致谢 <docs/common/致谢>
