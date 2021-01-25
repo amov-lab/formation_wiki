@@ -1,0 +1,68 @@
+无人机集群仿真
+==============
+五机集群飞行功能demo
+-----------------------------
+集群飞行功能介绍
+     .. hint:: 
+        该功能为控制五架无人机进行集群编队飞行，可实现模式控制、队形控制、位置控制等功能
+
+Launch文件位置：``Prometheus/Simulator/gazebo_simulator/launch_formation``
+
+启动脚本文件位置：``Prometheus/Simulator/gazebo_simulator/sh_formation/sitl_formation.sh``
+
+
+操作步骤：  
+    1.启动sitl_formation.sh脚本文件，并确保每个功能模块都成功启动；
+
+    2.在位置控制节点的终端窗口中根据提示输入在本地坐标系下的目标位置X,Y,Z（单位为米）以及无人机偏航角（单位为弧度）数据；
+    
+     .. image:: ../../images/formation/1.png
+        :height: 1280px
+        :width: 1920px
+        :scale: 30 %
+        :alt: None
+        :align: center 
+
+    3.在队形切换节点的终端窗口根据提示选择队形（目前仅支持以一字形或三角形起飞，不选择的情况下默认以一字形起飞）；
+
+     .. image:: ../../images/formation/2.png
+        :height: 1280px
+        :width: 1920px
+        :scale: 30 %
+        :alt: None
+        :align: center 
+
+    4.在模式切换节点的终端窗口根据提示输入数字0选择解锁起飞，无人机集群便飞行至目标位置；
+
+     .. image:: ../../images/formation/3.png
+        :height: 1280px
+        :width: 1920px
+        :scale: 30 %
+        :alt: None
+        :align: center
+
+    5.用户可根据个人使用情况按照提示正确输入队形控制，模式控制，位置控制相关指令。
+
+
+四机正方形绕圈功能demo
+----------------------------------------
+四机正方形绕圈功能介绍：
+        .. hint::
+            该功能为四架无人机组成正方形绕圈的集群飞行。
+Launch文件位置：``Prometheus/Simulator/gazebo_simulator/launch_formation``
+
+启动脚本文件位置：``Prometheus/Simulator/gazebo_simulator/sh_formation/sitl_formation_square.sh``
+
+
+
+操作步骤：  
+    1.启动sitl_formation_square.sh脚本文件，并确保每个功能模块都成功启动；
+
+    2.在正方形绕圈控制节点终端窗口根据提示输入1启动正方形绕圈功能；
+
+     .. image:: ../../images/formation/4.png
+        :height: 1280px
+        :width: 1920px
+        :scale: 30 %
+        :alt: None
+        :align: center
