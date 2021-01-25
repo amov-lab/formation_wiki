@@ -58,9 +58,18 @@ Launch文件位置：``Prometheus/Simulator/gazebo_simulator/launch_formation``
 操作步骤：  
     1.启动sitl_formation_square.sh脚本文件，并确保每个功能模块都成功启动；
 
-    2.在正方形绕圈控制节点终端窗口根据提示输入1启动正方形绕圈功能；
+    2.在集群状态节点的终端窗口查看每架无人机的状态，确保没有异常；
 
-     .. image:: ../../images/formation/4.png
+     .. image:: ../../images/formation/11.png
+        :height: 1280px
+        :width: 1920px
+        :scale: 30 %
+        :alt: None
+        :align: center
+
+    3. 在正方形绕圈控制节点终端窗口根据提示输入1启动正方形绕圈功能；
+
+    .. image:: ../../images/formation/4.png
         :height: 1280px
         :width: 1920px
         :scale: 30 %
