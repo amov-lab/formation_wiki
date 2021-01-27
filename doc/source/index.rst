@@ -6,8 +6,7 @@ amovlab 文档
 .. note::
    本教程正在积极完善中。
 
-本文档提供了产品使用手册/仿真使用手册/PX4基础配置说明
-
+本文档提供了产品使用手册/仿真使用手册/PX4以及APM基础配置说明
 -------------------------
 
 .. toctree::
@@ -47,11 +46,11 @@ amovlab 文档
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: APM基础配置
+   :caption:   APM基础配置
 
-   传感器校准 <docs/baseconfig_for_px4/3-传感器校准>
-   遥控器校准 <docs/baseconfig_for_px4/4-遥控器校准>
-   飞行模式设置 <docs/baseconfig_for_px4/5-飞行模式设置>
+   基本飞行概念<docs/baseconfig_for_apm/1-基本飞行概念>
+   校准 <docs/baseconfig_for_apm/2-校准>
+   飞行模式设置 <docs/baseconfig_for_apm/3-飞行模式设置>
 
 .. toctree::
    :maxdepth: 2
