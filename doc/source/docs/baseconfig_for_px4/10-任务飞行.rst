@@ -1,6 +1,5 @@
 任务飞行
 =================
-
 点击如下界面，进入航点规划界面
 
 .. image:: ../../images/baseconfig_for_px4/10-mission-icon.png

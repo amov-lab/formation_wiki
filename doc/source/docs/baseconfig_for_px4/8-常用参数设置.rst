@@ -1,6 +1,5 @@
 常用的参数设置
 =====================
-
 在参数设置下面的搜索界面，搜索关键字即可调整参数。
 
 .. image:: ../../images/baseconfig_for_px4/8-parameters.png

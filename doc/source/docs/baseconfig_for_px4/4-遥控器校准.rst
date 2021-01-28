@@ -1,6 +1,5 @@
 遥控器校准
 ===============
-
 点击校准，然后将油门拨到最低，如下图所示
 
 .. image:: ../../images/baseconfig_for_px4/4-radio-1.png
