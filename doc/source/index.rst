@@ -48,6 +48,7 @@ amovlab 文档
    :hidden:
    :caption:   APM基础配置
 
+   APM基础 <docs/baseconfig_for_apm/4-APM基础.rst>
    基本飞行概念<docs/baseconfig_for_apm/1-基本飞行概念>
    校准 <docs/baseconfig_for_apm/2-校准>
    飞行模式设置 <docs/baseconfig_for_apm/3-飞行模式设置>
