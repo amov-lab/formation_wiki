@@ -26,6 +26,10 @@ UWB无人机集群介绍
 
 |          1.	按要求摆放基站并将标定基站位置数据；
 
+    **1> 基站摆放：**
+|        UWB定位基站共有4个，分别命名为A0, A1, A2, A3。在这以10米 X 10米的正方形空间举例，
+|    位置摆放以A0为中心，A0 -> A1为正北方向，然后按顺时针依次摆放A2, A3基站。如下图所示：
+
     .. image:: ../../images/formation/14.png
         :height: 850px
         :width: 2000px
@@ -33,11 +37,50 @@ UWB无人机集群介绍
         :alt: None
         :align: center
 
-|          2.	按要求摆放无人机；
+    .. hint:: 
+        **基站摆放注意事项：**
 
+        ① 基站的高度尽量一致
+
+        ② 基站相互之间无障碍物遮挡
+
+        ③ 将基站正面朝向位于对角线的基站，A0与A2对应，A1与A3对应（基站正面有坐标系图案，背面写有名称）
+
+    **2> 基站标定：**
+
+    |    首先，到 LinkTrack官网的下载页面下载NAssistant软件，网址为：https://www.nooploop.com/download/。
+    
+.. attention::
+        **当发生基站相对位置改变以及定位精度不够等情况时，需要进行一键标定，方法如下：**
+     |      通过USB将任意一个基站与电脑连接，其余基站正常供电，打开NAssistant软件，软件将自
+     |  动连接，点击LinkTrack设置将弹出一个界面，再点击一键标定，等待基站坐标值稳定下来之后
+     |  ，退出软件，拔下USB，给基站重新上电。一键标定就完成了。
+
+.. image:: ../../images/formation/26.png
+        :height: 1350px
+        :width: 2300px
+        :scale: 30 %
+        :alt: None
+        :align: center
+
+.. image:: ../../images/formation/27.png
+        :height: 1350px
+        :width: 2300px
+        :scale: 30 %
+        :alt: None
+        :align: center
+|          2.	按要求摆放无人机：
+
+    .. hint:: **无人机摆放遵从以下要求：**
+
+        ①机头方向朝向东方，也就是A0指向A3的方向
+
+        ②无人机按从北往南依次摆放编号为2,3,1,4,5号飞机
+
+        ③飞机摆放位置的间隔尽量均匀，推荐间隔2米以上
     .. image:: ../../images/formation/15.png
-        :height: 850px
-        :width: 2000px
+        :height: 1050px
+        :width: 2500px
         :scale: 30 %
         :alt: None
         :align: center
