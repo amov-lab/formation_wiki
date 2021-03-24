@@ -1,6 +1,12 @@
 MOCAP无人机集群
 ==============
 
+.. attention::
+        **在使用无人机编队套件之前，需熟练掌握无人机单机操作，无人机相关Wiki链接：**
+        
+        P230无人机Wiki : https://prometheus-wiki.readthedocs.io/zh_CN/latest/
+
+
 动作捕捉系统介绍
 -----------------------------
 

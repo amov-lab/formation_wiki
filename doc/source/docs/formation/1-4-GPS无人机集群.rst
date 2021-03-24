@@ -1,5 +1,14 @@
 GPS无人机集群
 ==============
+
+
+.. attention::
+        **在使用无人机编队套件之前，需熟练掌握无人机单机操作，无人机相关Wiki链接：**
+       
+        P200无人机Wiki : https://www.amovlab.com/document
+        
+        P450,P600无人机Wiki : https://prometheus-wiki.readthedocs.io/zh_CN/latest/
+
 GPS介绍
 -----------------------------
 

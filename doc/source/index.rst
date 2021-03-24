@@ -21,10 +21,10 @@ amovlab 文档
    :hidden:
    :caption: 无人机集群使用手册
 
-   无人机集群仿真 <docs/p450/1-1-无人机集群仿真>
-   MOCAP无人机集群 <docs/p450/1-2-MOCAP无人机集群>
-   UWB无人机集群 <docs/p450/1-3-UWB无人机集群>
-   GPS无人机集群 <docs/p450/1-4-GPS无人机集群>
+   无人机集群仿真 <docs/formation/1-1-无人机集群仿真>
+   MOCAP无人机集群 <docs/formation/1-2-MOCAP无人机集群>
+   UWB无人机集群 <docs/formation/1-3-UWB无人机集群>
+   GPS无人机集群 <docs/formation/1-4-GPS无人机集群>
 
 
 .. toctree::
